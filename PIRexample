@@ -2,7 +2,7 @@
  * PIR sensor tester source: https://learn.adafruit.com/pir-passive-infrared-proximity-motion-sensor/using-a-pir
  */
  
-int ledPin = 13;                // choose the pin for the LED
+int ledPin = 13;                // choose the pin for the LED in this case is Arduino's LED but it can be substituded with another LED and 220ohm resistor https://learn.adafruit.com/assets/536
 int inputPin = 2;               // choose the input pin (for PIR sensor)
 int pirState = LOW;             // we start, assuming no motion detected
 int val = 0;                    // variable for reading the pin status
